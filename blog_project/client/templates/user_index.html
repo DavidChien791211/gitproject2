@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="static/images/bitbug_favicon.ico" type="image/x-icon"/>
+    <link href="/static/css/base.css" rel="stylesheet">
+    <link href="/static/css/index.css" rel="stylesheet">
+    <link href="/static/css/m.css" rel="stylesheet">
+    <script src="/static/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.easyfader.min.js"></script>
+    <script src="/static/js/scrollReveal.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script>
+        var url = document.location.toString();
+        var arrUrl = url.split("//");
+        var blog_username = arrUrl[1].split('/')[1];
+        var html_body = '';
+        token = window.localStorage.getItem('dnblog_token');
+        username = window.localStorage.getItem('dnblog_user');
+
+         $.ajax({
+         // 请求方式
+         type:"get",
+         // url
+         url:"http://127.0.0.1:8000/v1/base/user_index/"+ blog_username,
+         beforeSend: function(request) {
+             request.setRequestHeader("Authorization", token);
+         },
+         success:function (result) {
+             if (200 == result.code){
+                 $(document).attr('title', '關於'+ result.data.nickname+'的部落格');
+                 header_html = makeHeader(blog_username, username)
+                 html_body += header_html
+                 html_body +='<article>'
+                 html_body +='<div class="picsbox">'
+                 html_body +='<div class="banner">'
+                 html_body +='<div id="banner" class="fader">'
+                 html_body +='<li class="slide"><a href="info.html" target="_blank"><img src="http://127.0.0.1:5000/static/images/banner01.jpg"><span class="imginfo">爬虫微课5小时'
+                 html_body +='python学习路线!</span></a></li>'
+                 html_body +='<li class="slide"><a href="info.html" target="_blank"><img src="http://127.0.0.1:5000/static/images/banner02.jpg"><span class="imginfo">干货|如何优雅的在手机上进行Python编程</span></a></li>'
+                 html_body +='<li class="slide"><a href="info.html" target="_blank"><img src="http://127.0.0.1:5000/static/images/banner03.jpg"><span class="imginfo">python-win10下使用定时任务执行程序</span></a></li>'
+                 html_body +='<div class="fader_controls">'
+                 html_body +='<div class="page prev" data-target="prev">&lsaquo;</div>'
+                 html_body +='<div class="page next" data-target="next">&rsaquo;</div>'
+                 html_body +='<ul class="pager_list">'
+                 html_body +='</ul>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +='<div class="toppic">'
+                 html_body +='<li> <a href="info.html" target="_blank"> <i><img src="http://127.0.0.1:5000/static/images/toppic01.jpg"></i>'
+                 html_body +='<h2>linux升级py3,安装pip,svn</h2>'
+                 html_body +='<span>Linux</span>'
+                 html_body +='</a> </li>'
+                 html_body +='<li> <a href="info.html" target="_blank"> <i><img src="http://127.0.0.1:5000/static/images/zd01.jpg"></i>'
+                 html_body +='<h2>精通Python编程——Python深入浅出教程</h2>'
+                 html_body +='<span>python</span>'
+                 html_body +='</a> </li>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +='<div class="blank"></div>'
+                 html_body +='<!--blogsbox begin-->'
+                 html_body +='<div class="blogsbox">'
+                 html_body +='<div class="blogs" data-scroll-reveal="enter bottom over 1s">'
+                 html_body +='<h3 class="blogtitle"><a href="info.html" target="_blank">Python语言在人工智能(AI)中的优势 </a></h3>'
+                 html_body +='<span class="blogpic"><a href="info.html" title=""><img src="http://127.0.0.1:5000/static/images/toppic01.jpg" alt=""></a></span>'
+                 html_body +='<p class="blogtext">本文探讨了Python语言在AI领域的优势与运用。 谁会成为AI 和大数据时代的第一开发语言? 这本已是一个不需要争论的问题。如果说三年前,Matlab、Scala、R、Java'
+                 html_body +='...</p>'
+                 html_body +='<div class="bloginfo">'
+                 html_body +='<ul>'
+                 html_body +='<li class="author"><a href="info.html">皮皮璐</a></li>'
+                 html_body +='<li class="lmname"><a href="info.html">学无止境</a></li>'
+                 html_body +='<li class="timer">2018-5-13</li>'
+                 html_body +='<li class="view"><span>34567</span>已阅读</li>'
+                 html_body +='<li class="like">9999</li>'
+                 html_body +='</ul>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +='<div class="blogs" data-scroll-reveal="enter bottom over 1s">'
+                 html_body +='<h3 class="blogtitle"><a href="info.html" target="_blank">python中打开TXT文件报错 </a></h3>'
+                 html_body +='<p class="blogtext">python中打开TXT文件报错2017年03月09日 14:30:57 阅读数:676 在IDLE命令行引用一文件夹下的函数,来了条错误提示:FileNotFoundError:'
+                 html_body +='[Errno 2] No such ...</p>'
+                 html_body +='<div class="bloginfo">'
+                 html_body +='<ul>'
+                 html_body +='<li class="author"><a href="info.html">皮皮璐</a></li>'
+                 html_body +='<li class="lmname"><a href="info.html">学无止境</a></li>'
+                 html_body +='<li class="timer">2018-5-13</li>'
+                 html_body +='<li class="view">4567已阅读</li>'
+                 html_body +='<li class="like">9999</li>'
+                 html_body +='</ul>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +='<div class="blogs" data-scroll-reveal="enter bottom over 1s">'
+                 html_body +='<h3 class="blogtitle"><a href="info.html" target="_blank">精通Python编程——Python深入浅出教程</a></h3>'
+                 html_body +='<span class="bplist"><a href="info.html" title="">'
+                 html_body +='<li><img src="http://127.0.0.1:5000/static/images/avatar.jpg" alt=""></li>'
+                 html_body +='<li><img src="http://127.0.0.1:5000/static/images/toppic02.jpg" alt=""></li>'
+                 html_body +='<li><img src="http://127.0.0.1:5000/static/images/banner01.jpg" alt=""></li>'
+                 html_body +='</a></span>'
+                 html_body +='<p class="blogtext">Python 安装配置及基本语法篇 Python 语言速成 Python 基本知识 Python 常用表达式 Python 基础语法 Python 语法篇：菜鸟的Python笔记'
+                 html_body +='Python精要参考：快速入门 《Python标... </p>'
+                 html_body +='<div class="bloginfo">'
+                 html_body +='<ul>'
+                 html_body +='<li class="author"><a href="info.html">皮皮璐</a></li>'
+                 html_body +='<li class="lmname"><a href="info.html">学无止境</a></li>'
+                 html_body +='<li class="timer">2018-5-13</li>'
+                 html_body +='<li class="view"><span>34567</span>已阅读</li>'
+                 html_body +='<li class="like">9999</li>'
+                 html_body +='</ul>'
+                 html_body +='</div>'
+                 html_body +='</div>'
+                 html_body +=''
+                 html_body +='</div>'
+                 html_body +='</article>'
+                 $('body').html(html_body);
+                 loginOut()
+
+                 //下拉菜单
+                 $('.nav>li').hover(function () {
+                     $(this).children('ul').stop(true, true).show(400);
+                 }, function () {
+                     $(this).children('ul').stop(true, true).hide(400);
+                 });
+             }else{
+                 alert(result.error)
+             }
+         }
+    });
+
+
+
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

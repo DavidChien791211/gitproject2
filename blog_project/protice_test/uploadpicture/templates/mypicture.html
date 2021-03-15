@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="static/jquery.min.js" type="text/javascript"></script>
+    <script src="static/common.js"></script>
+    <link href="static/css/base.css" rel="stylesheet">
+</head>
+<body>
+<!--   <p>-->
+<!--        <form action=""  method="post" enctype="multipart/form-data" class="avatar_form">-->
+<!--            <label for="avatar">上傳照片</label>-->
+<!--            <input type="file" name="avatar" id="avatar">-->
+<!--            <input id="submit-btn" type="button" value="傳送" onclick="upload()">-->
+<!--        </form>-->
+<!--   </p>-->
+<script>
+    $.ajax({
+            type:"get",
+            url:"http://127.0.0.1:8000/picture/show_picture",
+            success:function (result){
+                if (200 == result.code){
+                    if(result.data){
+                        var html = "<div id='main'>";
+                        var row =0;
+                        for(var t in result.data){
+                            html+= '<img src="'+result.data[t]+'">'
+                            row++;
+                            if (row==4){
+                                row = 0;
+                                html+='<p></p>'
+                            }
+
+                        }
+                        html+='</div>'
+                        $("#show_data").html(html)
+                    }else{
+                        $("#show_data").html('空空如也')
+                    }
+                }
+            }
+    });
+</script>
+
+    <form id="img-form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <input type="file" name="img" id="img">
+        </div>
+        <div>
+            <input onclick="upload_img()" type="button" value="提交">
+        </div>
+    </form>
+    <div id="show_data" class="img" >
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6eb85843-11c9-4e2b-8473-74e2705d2fad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/base/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/blog/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/blog/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/btoken/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/avatar/guitar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/avatar/guitar_BW0kSTs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/avatar/guitar_in4rvXS.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar_35TXSby.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar_97tpWRy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar_UcbtKaq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar_dGQ0J2S.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/guitar_rsKSnCo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/images_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/slash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/slash2019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/slash_snakepit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/media/upload/slashlive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/message/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/myalbum/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tools/login_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tools/test_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/topic/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/migrations/0002_userprofile_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/REDEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/flask_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/login_reglogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/css/m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/5794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/auicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/author.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/b04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/b05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/bi05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/bitbug_favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/category.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/commentPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/comments.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/date.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/dsbz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/dzbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/newsbg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/page_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/page_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/page_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/page_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/re_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/searchbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/time.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/toppic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/toppic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/v1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/images/zd01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/jquery.easyfader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/scrollReveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/static/js/xcConfirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/change_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/gbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/list_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/photoalbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/templates/user_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/.idea/protice_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_2Hq5w6E.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_70DkgON.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_8fGQ99Z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_Bd4pXkd.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_Cpvk5xX.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_MVMyjd3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_PDK5t7B.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_WUI6eY8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_bU9gCb4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_cIFYR5e.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_cSfRCfq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_f3By6uU.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_f8d7SYH.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_jLIVsQB.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_p7IwtzB.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_q5TENZw.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_uxuAjY9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/media/upload/guitar_yyogvoO.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/protice_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/protice_test/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/protice_test/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/protice_test/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/static/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/static/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/templates/mypicture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protice_test/uploadpicture/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1m3VqrB4vWcZItod20ns5UkO60t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jwt_test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="make_token" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jwt_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_token.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.make_token" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eb85843-11c9-4e2b-8473-74e2705d2fad" name="Default Changelist" comment="" />
+      <created>1608722454849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608722454849</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="246" width="424" height="484" key="FileChooserDialogImpl" timestamp="1612267159256">
+      <screen x="67" y="27" width="1853" height="924" />
+    </state>
+    <state x="776" y="246" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.924@67.27.1853.924" timestamp="1612267159256" />
+    <state width="1853" height="32" key="GridCell.Tab.0.bottom" timestamp="1608815136010">
+      <screen x="67" y="27" width="1853" height="924" />
+    </state>
+    <state width="1853" height="32" key="GridCell.Tab.0.bottom/67.27.1853.924@67.27.1853.924" timestamp="1608815136010" />
+    <state width="1853" height="32" key="GridCell.Tab.0.center" timestamp="1608815136009">
+      <screen x="67" y="27" width="1853" height="924" />
+    </state>
+    <state width="1853" height="32" key="GridCell.Tab.0.center/67.27.1853.924@67.27.1853.924" timestamp="1608815136009" />
+    <state width="1853" height="32" key="GridCell.Tab.0.left" timestamp="1608815136008">
+      <screen x="67" y="27" width="1853" height="924" />
+    </state>
+    <state width="1853" height="32" key="GridCell.Tab.0.left/67.27.1853.924@67.27.1853.924" timestamp="1608815136008" />
+    <state width="1853" height="32" key="GridCell.Tab.0.right" timestamp="1608815136010">
+      <screen x="67" y="27" width="1853" height="924" />
+    </state>
+    <state width="1853" height="32" key="GridCell.Tab.0.right/67.27.1853.924@67.27.1853.924" timestamp="1608815136010" />
+  </component>
+</project>

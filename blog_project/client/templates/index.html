@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<!--
+author:lvlu
+date:2018-07
+desc:this demo is about blog. PLEASE NOTE:If you have trouble running it ,try any of the other demos or connect with auther.
+A ny individuals and organizations and not for commercial use, professiona website for customized web site.
+-->
+<head>
+  <meta charset="utf-8">
+  <title>首页_个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/bitbug_favicon.ico" type="image/x-icon" />
+  <link href="static/css/base.css" rel="stylesheet">
+  <link href="static/css/index.css" rel="stylesheet">
+  <link href="static/css/m.css" rel="stylesheet">
+  <script src="static/js/jquery.min.js" type="text/javascript"></script>
+  <script src="static/js/jquery.easyfader.min.js"></script>
+  <script src="static/js/scrollReveal.js"></script>
+  <script src="static/js/common.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <!--menu begin-->
+    <div class="menu">
+      <nav class="nav" id="topnav">
+        <h1 class="logo"><a href="index.html">個人部落格</a></h1>
+        <li><a href="/login">網頁首頁</a> </li>
+        <li><a href="/login">文章列表</a>
+          <ul class="sub-nav">
+            <li><a href="/login">Python</a></li>
+            <li><a href="/login">python Web</a></li>
+            <li><a href="/login">爬虫</a></li>
+            <li><a href="/login">人工智能</a></li>
+            <li><a href="/login">JS实例索引</a></li>
+          </ul>
+        </li>
+        <li><a href="/login">我的相簿</a>
+        </li>
+        <li><a href="/login">留言</a> </li>
+        <li><a href="/login">關於我</a> </li>
+        <li><a href="/login">發表部落格</a></li>
+      </nav>
+    </div>
+    <a href="/login" id="login" >登錄</a>
+    <a href="/register" id="register">注册</a>
+
+
+  </header>
+  <article>
+    <div class="picsbox">
+      <div class="banner">
+        <div id="banner" class="fader">
+          <li class="slide"><a href="login.html" target="_blank"><img src="static/images/banner01.jpg"><span class="imginfo">爬虫微课5小时
+                python学习路线!</span></a></li>
+          <li class="slide"><a href="login.htmll" target="_blank"><img src="static/images/banner02.jpg"><span class="imginfo">干货|如何优雅的在手机上进行Python编程</span></a></li>
+          <li class="slide"><a href="login.html" target="_blank"><img src="static/images/banner03.jpg"><span class="imginfo">python-win10下使用定时任务执行程序</span></a></li>
+          <div class="fader_controls">
+            <div class="page prev" data-target="prev">&lsaquo;</div>
+            <div class="page next" data-target="next">&rsaquo;</div>
+            <ul class="pager_list">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="toppic">
+        <li> <a href="info.html" target="_blank"> <i><img src="static/images/toppic01.jpg"></i>
+            <h2>linux升级py3,安装pip,svn</h2>
+            <span>Linux</span>
+          </a> </li>
+        <li> <a href="info.html" target="_blank"> <i><img src="static/images/zd01.jpg"></i>
+            <h2>精通Python编程——Python深入浅出教程</h2>
+            <span>python</span>
+          </a> </li>
+      </div>
+    </div>
+    <div class="blank"></div>
+    <!--blogsbox begin-->
+    <div class="blogsbox">
+      <div class="blogs" data-scroll-reveal="enter bottom over 1s">
+        <h3 class="blogtitle"><a href="info.html" target="_blank">Python语言在人工智能(AI)中的优势 </a></h3>
+        <span class="blogpic"><a href="info.html" title=""><img src="static/images/toppic01.jpg" alt=""></a></span>
+        <p class="blogtext">本文探讨了Python语言在AI领域的优势与运用。 谁会成为AI 和大数据时代的第一开发语言? 这本已是一个不需要争论的问题。如果说三年前,Matlab、Scala、R、Java
+          ...</p>
+        <div class="bloginfo">
+          <ul>
+            <li class="author"><a href="info.html">皮皮璐</a></li>
+            <li class="lmname"><a href="info.html">学无止境</a></li>
+            <li class="timer">2018-5-13</li>
+            <li class="view"><span>34567</span>已阅读</li>
+            <li class="like">9999</li>
+          </ul>
+        </div>
+      </div>
+      <div class="blogs" data-scroll-reveal="enter bottom over 1s">
+        <h3 class="blogtitle"><a href="info.html" target="_blank">python中打开TXT文件报错 </a></h3>
+        <p class="blogtext">python中打开TXT文件报错2017年03月09日 14:30:57 阅读数:676 在IDLE命令行引用一文件夹下的函数,来了条错误提示:FileNotFoundError:
+          [Errno 2] No such ...</p>
+        <div class="bloginfo">
+          <ul>
+            <li class="author"><a href="info.html">皮皮璐</a></li>
+            <li class="lmname"><a href="info.html">学无止境</a></li>
+            <li class="timer">2018-5-13</li>
+            <li class="view">4567已阅读</li>
+            <li class="like">9999</li>
+          </ul>
+        </div>
+      </div>
+      <div class="blogs" data-scroll-reveal="enter bottom over 1s">
+        <h3 class="blogtitle"><a href="info.html" target="_blank">精通Python编程——Python深入浅出教程</a></h3>
+        <span class="bplist"><a href="info.html" title="">
+            <li><img src="static/images/avatar.jpg" alt=""></li>
+            <li><img src="static/images/toppic02.jpg" alt=""></li>
+            <li><img src="static/images/banner01.jpg" alt=""></li>
+          </a></span>
+        <p class="blogtext">Python 安装配置及基本语法篇 Python 语言速成 Python 基本知识 Python 常用表达式 Python 基础语法 Python 语法篇：菜鸟的Python笔记
+          Python精要参考：快速入门 《Python标... </p>
+        <div class="bloginfo">
+          <ul>
+            <li class="author"><a href="info.html">皮皮璐</a></li>
+            <li class="lmname"><a href="info.html">学无止境</a></li>
+            <li class="timer">2018-5-13</li>
+            <li class="view"><span>34567</span>已阅读</li>
+            <li class="like">9999</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </article>
+
+</body>
+
+</html>
